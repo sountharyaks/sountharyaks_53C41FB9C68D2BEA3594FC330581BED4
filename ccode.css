@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(rgb(224, 177, 45),rgb(214, 108, 209),purple,rgb(175, 45, 45)  ) ;
+}
+header{
+    background-color: aqua(43,39,39);
+    color:rgb(253, 253, 253);
+    text-align: center;
+    padding: 1rem 0;
+    position:relative;
+
+}
+.my-pic{
+    width: 120px;
+    height:114px;
+    border-radius: 75%; 
+    object-fit: cover;
+    position:absolute ;
+    /*top:55px; */
+    left:85px;
+}
+nav{
+    background-color: rgba(40,39,39);
+    color:aliceblue;
+    text-align: center;
+}
+nav u1{
+    list-style-type: none;
+    padding: 0;
+}
+nav u1 li{
+    display: inline;
+    margin: 0 20px ;
+}
+nav u1 li a{
+    color: rgb(241, 241, 240);
+}
+.section{
+    background-color: rgba(101, 147, 170, 0.295);
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgb(235, 234, 230);
+}
